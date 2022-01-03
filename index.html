@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="projek.css" />
     <script src="jquery.min.js"></script>
     <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -24,21 +28,21 @@
         <div data-role="main" class="ui-content">
             <h1>DZF Store</h1>
             <p>Festive. Fancy. Fun</p>
-            <p>Celebrating the end of year in your most stylish self or exploring gift 
-                ideas to treat your loved ones this Christmas, 
+            <p>Celebrating the end of year in your most stylish self or exploring gift
+                ideas to treat your loved ones this Christmas,
                 here's your one-stop gifting destination to find the perfect present you'll want to give (and get).
             </p>
-            <p>NEW ARRIVAL</p>
+            <p><b>NEW ARRIVAL</b></p>
             <p>Discover the latest releases design of World fashion</p>
-            <img src="af2.jpg" alt="Trulli">
-            <img src="af4.jpg" alt="Trulli">
-            <img src="af5.jpg" alt="Trulli">
+            <img src="images/af2.jpg" alt="Trulli">
+            <img src="images/af4.jpg" alt="Trulli">
+            <img src="images/af5.jpg" alt="Trulli">
         </div>
         <div data-role="footer">
             <a href="#home" class="ui-btn">Home</a>
             <a href="#men" class="ui-btn">Mens</a>
             <a href="#women" class="ui-btn">Womens</a>
-            <a href="#kids"  class="ui-btn">Kids</a>
+            <a href="#order" class="ui-btn">Ordering Form</a>
             <a href="#tel" class="ui-btn">Contact Us</a>
         </div>
     </div>
@@ -47,16 +51,33 @@
         <div data-role="header">
             <h1>Mens</h1>
         </div>
-        <div  data-role="main" class="ui-content">
-          
-            <p>Men's Sneakers</p>
+        <div data-role="main" class="ui-content">
+
+            <h1>Men's Sneakers</h1>
+
             <p>Sport the classic lightweight and always comfortable low-top sneakers this holiday season. Dive in.</p>
+            <img src="images/a1.jpg" width="500" height="500" alt="Trulli">
+            <p>Nike AirForce1 Yellow</p>
+            <p>RM 450</p>
+            <img src="images/a2.jpg" width="500" height="500" alt="Trulli">
+            <p>Nike AirForce1 Red Swoosh</p>
+            <p>RM 500</p>
+            <img src="images/a3.jpg" width="500" height="500" alt="Trulli">
+            <p>Nike AirForce1 Grey</p>
+            <p>RM 470</p>
+            <img src="images/a4.jpg" width="500" height="500" alt="Trulli">
+            <p>Nike AirForce1 Grey Matte</p>
+            <p>RM 480</p>
+            <img src="images/a5.png" width="500" height="500" alt="Trulli">
+            <p>Nike AirForce1 Pink Matte</p>
+            <p>RM 500</p>
+
         </div>
         <div data-role="footer">
             <a href="#home" class="ui-btn">Home</a>
             <a href="#men" class="ui-btn">Mens</a>
             <a href="#women" class="ui-btn">Womens</a>
-            <a href="#kids"  class="ui-btn">Kids</a>
+            <a href="#order" class="ui-btn">Ordering Form</a>
             <a href="#tel" class="ui-btn">Contact Us</a>
         </div>
     </div>
@@ -65,32 +86,226 @@
             <h1>Womens</h1>
         </div>
         <div data-role="main" class="ui-content">
-            <ul>
-                
-            </ul>
+
+            <h1>Womens Sneakers</h1>
+            <p>Buy the best Nike women's trainers whether you out running, working out at the gym or for general
+                everyday wear. Get yours now!</p>
+            <img src="images/w1.jpeg" width="500" height="500" alt="Trulli">
+            <p>Nike AirMax Rainbow</p>
+            <p>RM 400</p>
+            <img src="images/w2.jpeg" width="500" height="500" alt="Trulli">
+            <p>Alter Ego1</p>
+            <p>RM 300</p>
+            <img src="images/w3.jpeg" width="500" height="500" alt="Trulli">
+            <p>Nike AirMax Double White</p>
+            <p>RM 370</p>
+            <img src="images/w4.jpeg" width="500" height="500" alt="Trulli">
+            <p>Nike AirMax Blue</p>
+            <p>RM 380</p>
+            <img src="images/w5.jpeg" width="500" height="500" alt="Trulli">
+            <p>Nike AirMax Black</p>
+            <p>RM 350</p>
         </div>
         <div data-role="footer">
             <a href="#home" class="ui-btn">Home</a>
             <a href="#men" class="ui-btn">Mens</a>
             <a href="#women" class="ui-btn">Womens</a>
-            <a href="#kids"  class="ui-btn">Kids</a>
+            <a href="#order" class="ui-btn">Ordering Form</a>
             <a href="#tel" class="ui-btn">Contact Us</a>
         </div>
     </div>
-    <div data-role="page" id="kids">
+    <div data-role="page" id="order">
         <div data-role="header">
-            <h1>Kids</h1>
+            <h1>Ordering Form</h1>
         </div>
         <div data-role="main" class="ui-content">
-            <ul>
-                
-            </ul>
+            <p>You can order you shoes Here</p>
+            <form>
+                <table border="1" width="40%" id="input">
+
+                    <tr class="saleinfo">
+                        <th colspan="2">SALES INFO</th>
+                    </tr>
+
+                    <tr>
+                        <td><label>Customer Name</label></td>
+                        <td>
+                            <input type="text" id="i_name" name="name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td>
+                            <input type="text" id="alamat" name="alamat">
+                        </td>
+                    </tr>
+
+                    <tr class="item">
+                        <th colspan="2">ITEM 1</th>
+                    </tr>
+
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td>
+                            <input type="text" id="item" name="name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Unit Price(RM)</label></td>
+                        <td>
+                            <input type="number" id="unitprice" name="unitprice" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Quantity </label></td>
+                        <td>
+                            <input type="number" id="quantity" name="quantity" />
+                        </td>
+                    </tr>
+
+                    <tr class="item">
+                        <th colspan="2">ITEM 2</th>
+                    </tr>
+
+                    <tr>
+                        <td><label>Name </label></td>
+                        <td>
+                            <input type="text" id="item2" name="name2" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Unit Price(RM) </label></td>
+                        <td>
+                            <input type="number" id="unitprice2" name="unitprice2" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Quantity </label></td>
+                        <td>
+                            <input type="number" id="quantity2" name="quantity2" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">
+                            <button type="button" onclick="kira()">CALCULATE</button>
+                            <input type="reset" name="reset" value="RESET">
+                        </th>
+                    </tr>
+
+                </table>
+            </form>
+
+            <br>
+
+            <table border="1" width="40%" id="output">
+
+                <tr class="saleinfo">
+                    <th colspan="2">SALES INFO</th>
+                </tr>
+
+                <tr>
+                    <td width="20%">Customer Name</td>
+                    <td>
+                        <span id="o_name"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Address </td>
+                    <td>
+                        <span id="o_alamat"></span>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <th colspan="3">ITEM 1</th>
+                </tr>
+
+                <tr>
+                    <td> Name </td>
+                    <td>
+                        <span id="outputitem1"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Unit Price(RM)</td>
+                    <td>
+                        <span id="outputunitprice1"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Quantity </td>
+                    <td>
+                        <span id="outputquantity1"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="jumlah">Total Price</td>
+                    <td>
+                        <span id="total1"></span>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <th colspan="2">ITEM 2</th>
+                </tr>
+
+                <tr>
+                    <td> Name </td>
+                    <td>
+                        <span id="outputitem2"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Unit Price(RM)</td>
+                    <td>
+                        <span id="outputunitprice2"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Quantity</td>
+                    <td>
+                        <span id="outputquantity2"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="jumlah">Total Price</td>
+                    <td>
+                        <span id="total2"></span>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <th colspan="2">PAYMENT INFO</th>
+                </tr>
+
+                <tr>
+                    <td class="keseluruhan">Grand Total</td>
+                    <td>
+                        <span id="gdtotal"></span>
+                    </td>
+                </tr>
+
+            </table>
+
         </div>
-        <div data-role="footer" >
+        <div data-role="footer">
             <a href="#home" class="ui-btn">Home</a>
             <a href="#men" class="ui-btn">Mens</a>
             <a href="#women" class="ui-btn">Womens</a>
-            <a href="#kids"  class="ui-btn">Kids</a>
+            <a href="#order" class="ui-btn">Ordering Form</a>
             <a href="#tel" class="ui-btn">Contact Us</a>
         </div>
     </div>
@@ -99,21 +314,35 @@
         <div data-role="header">
             <h1>Contact Us</h1>
         </div>
-        <div data-role="main" class="ui-content">           
+        <div data-role="main" class="ui-content">
         </div>
-        <p>You can Contact Us via: </p>
-    <a href="https://wa.me/60174905851">WhatsApp</a><br><br>
-    <a href="https://www.instagram.com/zaidabsyar_/">Instagram</a><br><br>
-    <a href="https://www.facebook.com/muhdzaid.absyar/">Facebook</a>
-    <p>or email us dzfstorehq@gmail.com</p>
+        <p>You can Contact Us via:
+        <p>
+        <p>Member :</p><br>
+        <u>Main Page & Product gallery</u>
+        <p>Muhammad Zaid Absyar Bin Mohamad Najib</p>
+        <p>18DDT19F2015</p><br>
+
+        <u>Ordering Form</u>
+        <p>Ahmad Daniel Bin Ahmad Saleh</p>
+        <p>18DDT19F2012</p><br>
+
+        <u>Contact Us</u>
+        <p>Muhammad Faris Bin Zamzuri</p>
+        <p>18DDT19F2021</p><br>
+
+        <i class="fa fa-whatsapp" style="font-size:36px"></i> &nbsp; <a href="https://wa.me/60174905851">WhatsApp</a><br>
+        <i class="fa fa-instagram" style="font-size:36px"></i> &nbsp; <a href="https://www.instagram.com/zaidabsyar_/">Instagram</a><br>
+        <i class="fa fa-facebook" style="font-size:36px"></i> &nbsp; <a href="https://www.facebook.com/muhdzaid.absyar/">Facebook</a>
+         <p>or email us dzfstorehq@gmail.com</p>
 
         <div data-role="footer">
             <a href="#home" class="ui-btn">Home</a>
             <a href="#men" class="ui-btn">Mens</a>
             <a href="#women" class="ui-btn">Womens</a>
-            <a href="#kids"  class="ui-btn">Kids</a>
+            <a href="#order" class="ui-btn">Ordering Form</a>
             <a href="#tel" class="ui-btn">Contact Us</a>
-    </div>
+        </div>
 
 </body>
 
